@@ -1,3 +1,44 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	word-wrap: break-word;
+}
+.menu {
+			margin-top: 10px !important;
+}
+
+.list {
+	article {
+			margin: 0px;
+			padding: 0px 5px 30px 5px;
+
+			h1 {
+				margin-top: 0px;
+				margin-bottom: 0px;
+				font-size: 24pt;
+			}
+			
+			.data {
+				font-size: 14pt;
+				color: darkgray;
+			}
+
+			.row {
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+
+	}
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+
+
